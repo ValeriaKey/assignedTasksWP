@@ -7,4 +7,4 @@
     <?php wp_head(); ?>
     <title>Platform Notes</title>
 </head>
-<body>
+<body <?= body_class(); ?>>

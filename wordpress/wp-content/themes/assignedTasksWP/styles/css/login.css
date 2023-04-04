@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.login h1 a {
+  background-image: url("/images/apelsin.png");
+}
+
+#wp-submit {
+  text-decoration: none;
+  color: white;
+  background: #FF7B05;
+  padding: 0 0.5rem;
+  display: block;
+  border-radius: 7px;
+  border: 2px solid #FF7B05;
+  transition: all 0.75s ease-out;
+  text-align: center;
+}
+#wp-submit:hover {
+  background-color: white;
+  color: #FF7B05;
+  font-weight: 500;
+}/*# sourceMappingURL=login.css.map */
