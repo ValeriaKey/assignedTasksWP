@@ -1,20 +1,47 @@
 @use"./variables" as *;
-.login h1 a {
-    background-image: url("/images/apelsin.png");
-}
-#wp-submit {
-    text-decoration: none;
-    color: white;
-    background: $orange;
-    padding: 0 0.5rem;
-    display: block;
-    border-radius: 7px;
-    border: 2px solid $orange;
-    transition: all 0.75s ease-out;
-    text-align: center;
-    &:hover {
-        background-color: white;
-        color: $orange;
-        font-weight: 500;
+.login {
+    background: $lightOrange;
+    font-family: $primaryFontFamily;
+    color: black;
+    .message {
+        border-left: 4px solid $orange;
+        border-radius: 0 7px 7px 0;
     }
-}
+    h1 a {
+        background-image: url("/images/apelsin.png");
+    }
+    #loginform, #registerform {
+        padding: 1.5rem;
+        border-radius: 7px;
+        border: 2px solid $orange;
+        input:focus {
+            border-color: $orange;
+            box-shadow: 0 0 0 1px $orange;
+        }
+    }
+    a {
+        color: $orange !important;
+        text-decoration: underline !important;
+        font-weight: 500 !important;
+        transition: all 0.3s ease;
+        &:hover {
+            opacity: 0.75;
+        }
+    }
+    #wp-submit {
+        text-decoration: none;
+        color: white;
+        background: $orange;
+        padding: 0 0.5rem;
+        display: block;
+        border-radius: 7px;
+        border: 2px solid $orange;
+        transition: all 0.3s ease-out;
+        text-align: center;
+        &:hover {
+            background-color: white;
+            color: $orange;
+            font-weight: 500;
+        }
+    }
+} 

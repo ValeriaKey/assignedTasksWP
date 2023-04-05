@@ -56,6 +56,35 @@ a:hover {
   color: #FF7B05;
 }
 
+.greeting-box-and-logg-out {
+  padding: 0 1rem;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.greeting-box-and-logg-out p {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: 2px solid #FF7B05;
+  border-radius: 50px;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: 500;
+  margin-left: auto;
+}
+.greeting-box-and-logg-out .exit {
+  border: 2px solid #FF7B05;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .home .main {
   display: flex;
   flex-direction: column;

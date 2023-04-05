@@ -1,9 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.login {
+  background: #FFF2E7;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.login .message {
+  border-left: 4px solid #FF7B05;
+  border-radius: 0 7px 7px 0;
+}
 .login h1 a {
   background-image: url("/images/apelsin.png");
 }
-
-#wp-submit {
+.login #loginform, .login #registerform {
+  padding: 1.5rem;
+  border-radius: 7px;
+  border: 2px solid #FF7B05;
+}
+.login #loginform input:focus, .login #registerform input:focus {
+  border-color: #FF7B05;
+  box-shadow: 0 0 0 1px #FF7B05;
+}
+.login a {
+  color: #FF7B05 !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease;
+}
+.login a:hover {
+  opacity: 0.75;
+}
+.login #wp-submit {
   text-decoration: none;
   color: white;
   background: #FF7B05;
@@ -11,10 +37,10 @@
   display: block;
   border-radius: 7px;
   border: 2px solid #FF7B05;
-  transition: all 0.75s ease-out;
+  transition: all 0.3s ease-out;
   text-align: center;
 }
-#wp-submit:hover {
+.login #wp-submit:hover {
   background-color: white;
   color: #FF7B05;
   font-weight: 500;

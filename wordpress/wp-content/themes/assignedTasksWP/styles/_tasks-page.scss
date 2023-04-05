@@ -1,0 +1,28 @@
+@use"./variables" as *;
+.greeting-box-and-logg-out {
+    padding: 0 1rem;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+   p {
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    color: black;
+    border: 2px solid $orange;
+    border-radius: 50px;
+    width: max-content;
+    font-weight: 500;
+    margin-left: auto;
+   }
+   .exit {
+    border: 2px solid $orange;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+}

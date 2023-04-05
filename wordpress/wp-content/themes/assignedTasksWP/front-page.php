@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+
+<?php
+if(!is_user_logged_in()) {
+get_header(); ?>
 <main class="main">
     <div class="container">
         <h1><span class="orange-letter">W</span>elcome to <span class="orange-letter">AssignedTasksWP</span> project!</h1>
@@ -13,4 +16,7 @@
     </div>
     <div class="apelsin"></div>
 </main>
-<?php get_header(); ?>
+<?php get_footer(); } else {
+   wp_redirect(site_url('/tasks'));
+   exit;
+}?>
