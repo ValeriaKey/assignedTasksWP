@@ -13,6 +13,33 @@
             X
         </a>
     </div>
+    <h1 class="title">
+        <?= get_the_title(); ?>
+    </h1>
+    <ul class="list-notes">
+        <li class="note-item">
+            <div class="head-note">
+                <h4>Cooking note</h4>
+                <div class="exp"></div>
+            </div>
+            <div class="head-details">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, voluptate nihil? Ullam consectetur quae corporis?</p>
+            </div>
+        </li>
+    </ul>
+    <div class="process-and-done-tasks">
+        <div class="wrapper">
+        <div class="new-task tasks">
+            X
+        </div>
+        <div class="process-tasks tasks">
+            <h3>In process</h3>
+        </div>
+        <div class="done-tasks tasks">
+        <h3>Done tasks</h3>
+        </div>
+        </div>
+    </div>
     <div href="" class="apelsin"></div>
 </main>
-<?php get_header(); ?>
+<?php get_footer(); ?>

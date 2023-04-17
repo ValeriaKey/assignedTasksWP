@@ -3,6 +3,16 @@
 $primaryFontFamily: 'Poppins', sans-serif;
 // Colors
 $lightOrange: #FFF2E7;
+$lighterOrange: #FDE6D2;
 $orange: #FF7B05;
 $white: white;
 
+/* Screen sizes */
+
+$screen-xs: 320px;
+$screen-tn: 576px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+$screen-hg: 1920px;
+$max-width: 1440px;
